@@ -36,5 +36,4 @@ include_once ('nav.php');
 
 <section>
   홈트레이닝
-
 </section>
