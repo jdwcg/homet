@@ -58,5 +58,4 @@ include_once ('nav.php');
       </div>
       <p class="copyright">Curves Korea ⓒ 2018</p>
    </div>
-
 </section>
