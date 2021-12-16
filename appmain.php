@@ -53,7 +53,7 @@ include_once ('nav.php');
          <a><img src="imgs/event.svg" alt="event"></a>
       </div>
       <div class="colum">
-         <a href="#"><img src="imgs/training.svg" alt="training"></a>
+         <a href="homet.php"><img src="imgs/training.svg" alt="training"></a>
          <a><img src="imgs/myclub.svg" alt="myclub"></a>
       </div>
       <p class="copyright">Curves Korea ⓒ 2018</p>
