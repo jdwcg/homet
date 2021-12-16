@@ -112,11 +112,11 @@
    </ol>
    <ol id="asideMenuSub2">
       <li><a href="#">&nbsp</a></li>
-      <li><a href="index.php?id=coaching&title=코칭매니저">일일운동</a></li>
-      <li><a href="index.php?id=myhistory&title=나의 건강기록">나의건강기록</a></li>
-      <li><a href="index.php?id=calendar&title=다이어리">다이어리</a></li>
-      <li><a href="index.php?id=myclub&title=마이클럽">마이클럽</a></li>
-      <li><a href="index.php?id=myfood&title=식단 칼로리">식단칼로리</a></li>
+      <li><a href="homet.php?id=main&title=홈트메뉴1">홈트메뉴1</a></li>
+      <li><a href="homet.php?id=main&title=홈트메뉴2">홈트메뉴2</a></li>
+      <li><a href="homet.php?id=main&title=홈트메뉴3">홈트메뉴3</a></li>
+      <li><a href="homet.php?id=main&title=홈트메뉴4">홈트메뉴4</a></li>
+      <li><a href="homet.php?id=main&title=홈트메뉴5">홈트메뉴5</a></li>
       <li class="xBtnWrap"><a href="javascript:void(0)" onclick="closeMenu()" class="xBtn"><i class="fas fa-times"></i></a></li>
    </ol>
 </div>
@@ -177,32 +177,5 @@
 
 <!-- 케어매니저 -->
 <body style="background: #f9f9f9;">
-    <nav class="navbar navbar-dark" style="background: #371e92;max-width: 640px;margin: 0 auto;">
-        <div class="container-fluid">
-           <a href="#" id=toggleBtn onclick="toggleMenu()"><i style="font-size:24px;padding: 0 6px;visibility:hidden;" class="bi bi bi-list"></i></a>
-          <a class="navbar-brand text-white" href="index.php" style="font-size: 16px;color: #fff;opacity: 1;">
-            <?php
-              if(isset($_GET['title'])) {
-                echo $_GET['title'];
-              } else {
-                echo 'Care Manager';
-              }
-             ?>
-          </a>
-          <button data-toggle="collapse" class="navbar-toggler text-white" data-target="#navcol-1" style="border-style: none;padding: 4px 6px; border-radius: 6px;">
-            <span class="text-white sr-only ">Toggle navigation</span>
-            <span><i class="bi bi-chevron-down"></i></span>
-          </button>
-            <div class="collapse navbar-collapse text-white" id="navcol-1">
-                <ul class="nav navbar-nav text-white" style="text-align: center;">
-                    <li class="nav-item"><a class="nav-link active" href="index.php?id=coaching&title=코칭매니저" style="color: #fff;font-size: 14px;">코칭매니저</a></li>
-                    <li class="nav-item"><a class="nav-link" href="index.php?id=myhistory&title=나의 건강기록" style="color: #fff;font-size: 14px;">나의 건강기록<br></a></li>
-                    <li class="nav-item"><a class="nav-link" href="index.php?id=calendar&title=다이어리" style="color: #fff;font-size: 14px;">다이어리</a></li>
-                    <li class="nav-item"><a class="nav-link" href="index.php?id=myclub&title=마이클럽" style="color: #fff;font-size: 14px;">마이클럽<br></a></li>
-                    <li class="nav-item"><a class="nav-link" href="index.php?id=myfood&title=식단 칼로리" style="color: #fff;font-size: 14px;">식단 칼로리<br></a></li>
-                </ul>
-          </div>
-        </div>
-    </nav>
+    <p style="text-align: center;">상단</p>
     <div class="container-fluid" style="padding: 0px;max-width: 640px;background: #fff;">
-        <div id="mainBgImg"><img src="sub/assets/img/wave.png" style="width: 100%;"></div>

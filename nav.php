@@ -114,11 +114,11 @@
    </ol>
    <ol id="asideMenuSub2">
       <li><a href="#">&nbsp</a></li>
-      <li><a href="index.php?id=coaching&title=코칭매니저">일일운동</a></li>
-      <li><a href="index.php?id=myhistory&title=나의 건강기록">나의건강기록</a></li>
-      <li><a href="index.php?id=calendar&title=다이어리">다이어리</a></li>
-      <li><a href="index.php?id=myclub&title=마이클럽">마이클럽</a></li>
-      <li><a href="index.php?id=myfood&title=식단 칼로리">식단칼로리</a></li>
+      <li><a href="homet.php?id=main&title=홈트메뉴1">홈트메뉴1</a></li>
+      <li><a href="homet.php?id=main&title=홈트메뉴2">홈트메뉴2</a></li>
+      <li><a href="homet.php?id=main&title=홈트메뉴3">홈트메뉴3</a></li>
+      <li><a href="homet.php?id=main&title=홈트메뉴4">홈트메뉴4</a></li>
+      <li><a href="homet.php?id=main&title=홈트메뉴5">홈트메뉴5</a></li>
       <li class="xBtnWrap"><a href="javascript:void(0)" onclick="closeMenu()" class="xBtn"><i class="fas fa-times"></i></a></li>
    </ol>
 </div>
